@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+/* font-family: 'Baloo Bhai 2', cursive; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+html{
+    font-size: 16px;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+width: 25vw;
+height: 100vh;
+background-color: rgb(60, 98,119);
+color: whitesmoke;
+display: flex;
+    flex-direction: column;
+}
+
+.container1box1{
+    width: 30vw;
+    height: 20vh;
+    font-size: 2vw;
+    
+}
+
+.p1{
+    position: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.container1box2{
+    width: 30vw;
+    height: 40vh;
+}
+
+
+
+.image1{
+    position: relative;
+    top: 15%;
+    left: 7%;
+    width: 12vw;
+    height: 12vw;
+    border: 8px solid white;
+}
+
+.image2{
+    position: relative;
+   top: 62%;
+    right: 5%;
+    width: 12vw;
+    height: 12vw;
+    border: 8px solid white;
+}
+
+.container1box3{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+width: 75vw;
+height: 100vh;
+}
+
+
+.box2{
+    width: 75vw;
+    height: 75vh;
+   
+}
+
+#box2image{
+    width: 75vw;
+    height: 80vh;
+}
+
+.nav-list{
+display: flex;
+flex-direction: column;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1.7vw;
+}
+
+.nav-list li a:hover {
+    text-shadow: 0px 3px 6px white;
+}
+
+.navbar{
+    position: relative;
+    top: 25%;
+    left: -29%;
+}
+
+
+
+.box1{
+    width: 75vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+.leftbox  a{ text-decoration: none;
+
+    
+}
+
+.rightbox{
+    
+}
+
+.box1content1{
+    font-size: 2vw;
+    color:rgb(60, 98,119) ;
+    font-weight: bold;
+}
+
+.box1content2{
+    font-size: 1.3vw;
+    color:rgb(60, 98,119) ;
+    font-weight: bold;
+}
+
+.box1content3{
+    font-size: 3vw;
+    color:rgb(60, 98,119) ;
+    font-weight: bold;
+}
+
+
+
+
+
+/* code for the section2 */
+
+
+.section2{
+    width: 100vw;
+    height: 100vh;
+}
+
+.section2container1{
+    width: 35vw;
+    height: 100vh;
+}
+
+
+.section2container1box1{
+    width: 35vw;
+    height: 40vh;
+}
+
+.section2img1{
+    width: 35vw;
+    height: 40vh;
+}
+.section2container1box2{
+    width: 35vw;
+    height: 30vh;
+    padding: 5%;
+}
+
+.section2container1box3{
+    width: 35vw;
+    height: 30vh;
+    padding: 5%;
+}
+
+.section2container1para1{
+    font-size: 2vw;
+    font-weight: 700;
+    color: rgb(60, 98,119);
+}
+
+.section2container1para2{
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: rgb(60, 98,119);
+}
+
+.section2container2{
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(60, 98,119);
+    color: white;
+}
+
+.section2container2box1{
+    width: 30vw;
+    height: 10vh;
+}
+
+.section2container2para1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.section2container2box2{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section2container2img2{
+width: 20vw;
+height: 25vh;
+border: none;
+border-radius: 10px;
+padding-top: 2vh;
+
+}
+.section2container2para{
+    font-size: 1vw;
+    font-weight: 700;
+    padding-top: 2vh;
+
+
+}
+.section2container2box3{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2container2box4{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2container3{
+    width: 35vw;
+    height: 100vh;
+}
+
+.section2container3box1{
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vw;
+}
+
+.section2container3box2{
+    width: 35vw;
+    height: 50vh;
+}
+
+.section2container3img{
+    width: 35vw;
+    height: 50vh;
+}
